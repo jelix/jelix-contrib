@@ -1,3 +1,7 @@
+
+About this repository
+=====================
+
 This repository contains little plugins and modules made by some contributors, but that
 have not a project web site, or/and the creator doesn't maintain it anymore.
 
@@ -8,10 +12,27 @@ They are not stored in the official repository of Jelix, because of various reas
    * The plugin/module is used only by few projects, and the core team doesn't want to have too many plugins and modules to maintain in the main repository.
 
 
-So, in this repository, there are some components that are not maintain. There are chance that they are not working for the latest Jelix release. However, you would like to use one of them for your project. Verify in there README file or in their identity file (module.xml for example), their compatibility with your Jelix version. **And don't hesitate to contribute!** Help us to maintain these components!
+Using these components
+======================
+
+Since these components are not in the main repository, some of them are not really maintain. There are chance that they are not working for the latest Jelix release. However, you would like to use one of them for your project.
+
+Verify first in their README file or in their identity file (module.xml for example), their compatibility with your Jelix version, and release notes. Verify also in the issue tracker if there are know issues about it.
+
+**Important: Jelix Team does not guarantee the quality of these components**. No tests are made by the team. You use these components at your own risk.
+
+
+If something works wrong, **don't hesitate to contribute**, at least by opening a issue ticket.
+
+
+**Help us to maintain these components!** :-)
 
 Note that all components are referenced on http://booster.jelix.org, our components index for Jelix.
 
+Proposing a component
+=====================
 
-You can also propose components which meet the reasons described above. However, if this is a big component, prefer to open a project on github or somewhere else. To propose a plugin/module, you can do it by attaching a zip file in an issue, or by  cloning the repository and doing a pull request. In any case, your code source should contain a README or/and module.xml/plugin.xml, explaining what it does, to which Jelix it is compatible, dependencies etc..
+You can propose components which meet the reasons described above. However, if this is a big component, prefer to open a project on github or somewhere else.
+
+To propose a plugin/module, you can do it by attaching a zip file in an issue, or by  cloning the repository and doing a pull request. In any case, your code source should contain a README or/and module.xml/plugin.xml, explaining what it does, to which Jelix it is compatible, dependencies, which known issues the component have, how it should be installed etc..
 

@@ -17,13 +17,11 @@ Using these components
 
 Since these components are not in the main repository, some of them are not really maintain. There are chance that they are not working for the latest Jelix release. However, you would like to use one of them for your project.
 
-Verify first in their README file or in their identity file (module.xml for example), their compatibility with your Jelix version, and release notes. Verify also in the issue tracker if there are know issues about it.
+Verify first in their README file or in their identity file (module.xml for example), their compatibility with your Jelix version, and read release notes. Verify also in the issue tracker if there are known issues about it.
 
 **Important: Jelix Team does not guarantee the quality of these components**. No tests are made by the team. You use these components at your own risk.
 
-
 If something works wrong, **don't hesitate to contribute**, at least by opening a issue ticket.
-
 
 **Help us to maintain these components!** :-)
 
@@ -32,7 +30,7 @@ Note that all components are referenced on http://booster.jelix.org, our compone
 Proposing a component
 =====================
 
-You can propose components which meet the reasons described above. However, if this is a big component, prefer to open a project on github or somewhere else.
+You can propose components which meet the reasons described above. There are no really criterias to propose a component. No specific coding style etc. However, if this is a big component, prefer to open a project on github (it's free! :-) ) or somewhere else.
 
-To propose a plugin/module, you can do it by attaching a zip file in an issue, or by  cloning the repository and doing a pull request. In any case, your code source should contain a README or/and module.xml/plugin.xml, explaining what it does, to which Jelix it is compatible, dependencies, which known issues the component have, how it should be installed etc..
+To propose a plugin/module, you can do it by attaching a zip file in an issue, or by  cloning the repository and doing a pull request. In any case, your code source should contain a README and a module.xml/plugin.xml file, explaining what it does, to which Jelix it is compatible, dependencies, which known issues the component have, how it should be installed etc..
 

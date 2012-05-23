@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://jelix.org/ns/plugin/1.0">
+    <info id="sybase@booster.jelix.org" name="sybase" createdate="2010-07-25">
+        <version stability="beta" date="2010-07-25">1.0</version>
+        <label lang="en-EN">Sybase driver</label>
+        <description lang="en-EN">jDb driver for Sybase</description>
+        <license URL="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL 2.1</license>
+        <copyright>2010 Xavier Martin-Prével</copyright>
+        <creator name="Xavier Martin-Prével"/>
+        <homepageURL>http://booster.jelix.org</homepageURL>
+    </info>
+    <dependencies>
+        <jelix minversion="1.2" maxversion="1.2.*"/>
+    </dependencies>
+</plugin>

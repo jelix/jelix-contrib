@@ -70,7 +70,7 @@ function jtpl_function_html_incrementalpagelinks($tpl, $action, $actionParams, $
 
         $nextBound = 0;
 
-        $totalPage = floor($itemsTotal / $pageSize);
+        $totalPage = ceil($itemsTotal / $pageSize);
 
         // Generates list of page offsets
         for ($curidx = 1; $curidx <= $totalPage; $curidx++) {

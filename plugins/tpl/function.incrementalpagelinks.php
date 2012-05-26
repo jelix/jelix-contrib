@@ -14,7 +14,7 @@
 
 /**
  * Alternative pager to {pagelinks}
- * 
+ *
  * Displays page links with incremental page instead of offset
  * @example ?page=2, ?page=3, etc.
  * @param jTpl $tpl template engine
@@ -96,7 +96,11 @@ function jtpl_function_html_incrementalpagelinks($tpl, $action, $actionParams, $
         $urlStartPage = $jUrlEngine->create($urlaction);
 
         // Calculate previous page url
-        $urlaction->params[$paramName] = $prevBound;
+        if ($prevBound > 1) {
+            $urlaction->params[$paramName] = $prevBound;
+        } else {
+            unset($urlaction->params[$paramName]);
+        }
         $urlPrevPage = $jUrlEngine->create($urlaction);
 
         // Calculate next page url

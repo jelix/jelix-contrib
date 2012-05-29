@@ -32,5 +32,9 @@ Proposing a component
 
 You can propose components which meet the reasons described above. There are no really criterias to propose a component. No specific coding style etc. However, if this is a big component, prefer to open a project on github (it's free! :-) ) or somewhere else.
 
-To propose a plugin/module, you can do it by attaching a zip file in an issue, or by  cloning the repository and doing a pull request. In any case, your code source should contain a README and a module.xml/plugin.xml file, explaining what it does, to which Jelix it is compatible, dependencies, which known issues the component have, how it should be installed etc..
+To propose a plugin/module, you can do it by attaching a zip file in an issue, or by cloning the repository and doing a pull request. In any case:
+
+- each commit messages (if this is a pull repquest) should begin with "[name] " where name is the component name.
+- your code source should contain a README and a module.xml/plugin.xml file, explaining what it does, to which Jelix it is compatible, dependencies, which known issues the component have, how it should be installed etc..
+- all source files should contain licence header and/or a LICENCE file should be present. Only open source components are accepted.
 

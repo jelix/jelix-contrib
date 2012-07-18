@@ -7,10 +7,10 @@ independant module since Jelix 1.5.
 
 XUL is a user interface description language. It is useful to develop rich web
 applications in the browser space, without dealing with complex javascript
-and dom manipulations. See [[http://developer.mozilla.org/en/XUL]]. 
+and dom manipulations. See [xul](http://developer.mozilla.org/en/XUL). 
 
 Note: Only Gecko-based browser renders XUL (Firefox is the most famous one),
-and you have to install the [[https://addons.mozilla.org/fr/firefox/addon/remote-xul-manager/|Remote XUL manager]] addon,
+and you have to install the [Remote XUL manager](https://addons.mozilla.org/fr/firefox/addon/remote-xul-manager/) addon,
 to allow to use XUL in a web application.
 
 
